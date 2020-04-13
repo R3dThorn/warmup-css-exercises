@@ -1,0 +1,22 @@
+div{
+    margin: 10px;
+}
+.interior{
+    background-color: blue;
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.div2{
+    background-color: red;
+    z-index: 2;
+    position: absolute;
+    clear: both;
+    top: 70px;
+    left: 77px;
+    transform: rotate(45deg);
+}
+.div4 {
+    clear: left;
+}
